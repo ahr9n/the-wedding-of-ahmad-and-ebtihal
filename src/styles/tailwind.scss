@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Lobster&display=swap');
+
 /* purgecss start ignore */
 @tailwind base;
 
@@ -8,4 +15,32 @@
 /* purgecss start ignore */
 html {
   @apply antialiased;
+}
+
+body {
+  background-image: url("/background/forest.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c2ff9c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #07e363;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #08bd52;
 }
