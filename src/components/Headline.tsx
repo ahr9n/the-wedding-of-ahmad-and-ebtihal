@@ -2,6 +2,7 @@ import React from "react"
 
 import { ImCalendar } from "react-icons/im"
 
+import Card from "@components/Card"
 import Countdown from "@components/Countdown"
 import { COUPLES, MARRIAGE_TIME } from "data/wedding"
 
@@ -34,18 +35,12 @@ const Headline = () => {
     )
   }
   return (
-    <div
-      style={cardStyle}
-      className="by-5 card image-full my-5 w-96 text-neutral-content lg:w-1/2"
-    >
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">Pernikahan</h2>
-        {renderCoupleNames()}
-        <div>InsyaAllah akan dilaksanakan pada:</div>
-        {renderDateTime()}
-        <Countdown />
-      </div>
-    </div>
+    <Card title="Pernikahan">
+      {renderCoupleNames()}
+      <div>InsyaAllah akan dilaksanakan pada:</div>
+      {renderDateTime()}
+      <Countdown />
+    </Card>
   )
 }
 

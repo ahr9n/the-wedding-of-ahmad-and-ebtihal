@@ -1,5 +1,6 @@
 import React from "react"
 
+import Card from "@components/Card"
 import { ICouple } from "data/interfaces"
 import { COUPLES } from "data/wedding"
 
@@ -35,22 +36,13 @@ const Invitation = () => {
   }
 
   return (
-    <div
-      style={cardStyle}
-      className="by-5 card image-full my-5 w-96 text-neutral-content lg:w-1/2"
-    >
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">
-          Assalamualaikum Warahmatullahi Wabarakatuh
-        </h2>
-        <h3>
-          Dengan memohon Rahmat dan Ridho Allah ﷻ, kami berniat untuk memohon
-          doa serta mengundang bapak/ibu/saudara/i untuk menghadiri pernikahan
-          kami:
-        </h3>
-        {renderCoupleNames()}
-      </div>
-    </div>
+    <Card title="Assalamualaikum Warahmatullahi Wabarakatuh">
+      <h3>
+        Dengan memohon Rahmat dan Ridho Allah ﷻ, kami berniat untuk memohon doa
+        serta mengundang bapak/ibu/saudara/i untuk menghadiri pernikahan kami:
+      </h3>
+      {renderCoupleNames()}
+    </Card>
   )
 }
 
