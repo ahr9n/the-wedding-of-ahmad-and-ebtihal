@@ -1,5 +1,6 @@
 import React from "react"
 
+import Card from "@components/Card"
 import Dalil from "@components/Dalil"
 
 const cardStyle = {
@@ -11,42 +12,36 @@ const cardStyle = {
 
 const Rewards = () => {
   return (
-    <div
-      style={cardStyle}
-      className="by-5 card image-full my-5 w-96 text-neutral-content lg:w-1/2"
-    >
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">Dalil Dalam Pernikahan</h2>
-        <div className="my-7 font-serif text-xl xl:px-7 xl:text-3xl">
-          وَاَنْكِحُوا الْاَيَامٰى مِنْكُمْ وَالصّٰلِحِيْنَ مِنْ عِبَادِكُمْ
-          وَاِمَاۤىِٕكُمْۗ اِنْ يَّكُوْنُوْا فُقَرَاۤءَ يُغْنِهِمُ اللّٰهُ مِنْ
-          فَضْلِهٖۗ وَاللّٰهُ وَاسِعٌ عَلِيْمٌ
-        </div>
-        <div className="xl:px-7">
-          "Dan nikahkanlah orang-orang yang masih membujang di antara kamu, dan
-          juga orang-orang yang layak (menikah) dari hamba-hamba sahayamu yang
-          laki-laki dan perempuan. Jika mereka miskin, Allah akan memberi
-          kemampuan kepada mereka dengan karunia-Nya. Dan Allah Mahaluas
-          (pemberian-Nya), Maha Mengetahui."
-        </div>
-        <div>QS. An-Nur: 32</div>
-
-        <label
-          htmlFor="my-modal-4"
-          className="modal-button btn btn-secondary my-3"
-        >
-          Lihat Dalil Nikah Lainnya!
-        </label>
-
-        <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-        <label htmlFor="my-modal-4" className="modal cursor-pointer">
-          <label className="modal-box relative" htmlFor="">
-            {/* eslint-disable-next-line react/jsx-no-undef */}
-            <Dalil />
-          </label>
-        </label>
+    <Card title="Dalil Dalam Pernikahan">
+      <div className="my-7 font-serif text-xl xl:px-7 xl:text-3xl">
+        وَاَنْكِحُوا الْاَيَامٰى مِنْكُمْ وَالصّٰلِحِيْنَ مِنْ عِبَادِكُمْ
+        وَاِمَاۤىِٕكُمْۗ اِنْ يَّكُوْنُوْا فُقَرَاۤءَ يُغْنِهِمُ اللّٰهُ مِنْ
+        فَضْلِهٖۗ وَاللّٰهُ وَاسِعٌ عَلِيْمٌ
       </div>
-    </div>
+      <div className="xl:px-7">
+        "Dan nikahkanlah orang-orang yang masih membujang di antara kamu, dan
+        juga orang-orang yang layak (menikah) dari hamba-hamba sahayamu yang
+        laki-laki dan perempuan. Jika mereka miskin, Allah akan memberi
+        kemampuan kepada mereka dengan karunia-Nya. Dan Allah Mahaluas
+        (pemberian-Nya), Maha Mengetahui."
+      </div>
+      <div>QS. An-Nur: 32</div>
+
+      <label
+        htmlFor="my-modal-4"
+        className="modal-button btn btn-secondary my-3"
+      >
+        Lihat Dalil Nikah Lainnya!
+      </label>
+
+      <input type="checkbox" id="my-modal-4" className="modal-toggle" />
+      <label htmlFor="my-modal-4" className="modal cursor-pointer">
+        <label className="modal-box relative" htmlFor="">
+          {/* eslint-disable-next-line react/jsx-no-undef */}
+          <Dalil />
+        </label>
+      </label>
+    </Card>
   )
 }
 
