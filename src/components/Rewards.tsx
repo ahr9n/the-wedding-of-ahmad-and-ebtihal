@@ -27,10 +27,7 @@ const Rewards = () => {
       </div>
       <div>QS. An-Nur: 32</div>
 
-      <label
-        htmlFor="my-modal-4"
-        className="modal-button btn btn-secondary my-3"
-      >
+      <label htmlFor="my-modal-4" className="modal-button btn btn-outline my-3">
         Lihat Dalil Nikah Lainnya!
       </label>
 
