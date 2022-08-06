@@ -10,12 +10,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next.js advanced start template.</title>
+        <title>Pernikahan Ismi & Hasan</title>
 
         <meta
           name="description"
-          content="Use tailwind css, eslint, prettier & absolute imports instantly.
-            Easily extendable zero-config template for pros and beginners."
+          content="Website Pernikahan Ismi Dinda Muslimah & Muhammad Hasan"
         />
 
         <link rel="icon" href="/favicon.ico" />
