@@ -19,12 +19,18 @@ export const COUPLES: ICouples = {
   },
 }
 
-export const MARRIAGE_TIME = {
-  DATE: {
-    EN: "Saturday, 3 September 2022",
-    ID: "Sabtu, 3 September 2022",
+export const MARRIAGE = {
+  time: {
+    date: {
+      en: "Saturday, 3 September 2022",
+      id: "Sabtu, 3 September 2022",
+    },
+    dateValue: new Date("September 3, 2022"),
+    startTime: "08:30",
+    endTime: "15:30",
   },
-  DATE_VALUE: new Date("September 3, 2022"),
-  START_TIME: "08:30",
-  END_TIME: "15:30",
+  location: {
+    place: "Jl. At-Taqwa Muhajirun, Negara Ratu, Kec. Natar, Lampung 35362",
+    url: "http://maps.google.com/maps?q=loc:-5.325106,%20105.172285",
+  },
 }
