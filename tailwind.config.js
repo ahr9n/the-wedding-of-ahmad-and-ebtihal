@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        curly: ["Great Vibes", ...defaultTheme.fontFamily.serif],
       },
     },
   },
