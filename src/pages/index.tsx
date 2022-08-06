@@ -10,13 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pernikahan Ismi & Hasan</title>
-
-        <meta
-          name="description"
-          content="Website Pernikahan Ismi Dinda Muslimah & Muhammad Hasan"
-        />
-
+        <title>Wedding of Ismi & Hasan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-center py-5">
