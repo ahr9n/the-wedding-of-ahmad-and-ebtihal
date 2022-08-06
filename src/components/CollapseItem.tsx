@@ -13,9 +13,9 @@ const CollapseItem = (dalil: IDalil) => {
   }
 
   return (
-    <div className="my-3 bg-orange-900 py-3">
+    <div className="my-3 rounded-xl bg-gray-800 py-3">
       <div
-        className="btn btn-outline btn-lg btn-wide my-2 px-5 text-sm  xl:text-base"
+        className="btn btn-lg btn-wide my-2 px-5 text-sm  xl:text-base"
         onClick={clickButton}
       >
         {title}

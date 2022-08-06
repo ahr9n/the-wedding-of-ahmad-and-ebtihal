@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react"
 
-import { MARRIAGE_TIME } from "data/wedding"
+import { MARRIAGE } from "data/wedding"
 
 const classUnitTime = "flex flex-col items-center justify-center"
 const classSpanCountdown = "countdown text-xl xl:text-3xl mb-2"
 
 const Countdown = () => {
-  const countDownDate = MARRIAGE_TIME.DATE_VALUE.getTime()
+  const countDownDate = MARRIAGE.time.dateValue.getTime()
 
   const [countDown, setCountDown] = useState(
     countDownDate - new Date().getTime()

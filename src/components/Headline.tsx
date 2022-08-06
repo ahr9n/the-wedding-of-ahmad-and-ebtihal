@@ -1,39 +1,10 @@
 import React from "react"
 
-import { ImCalendar } from "react-icons/im"
-
 import Card from "@components/Card"
 import Countdown from "@components/Countdown"
-import { COUPLES, MARRIAGE_TIME } from "data/wedding"
-
-const cardStyle = {
-  backgroundColor: "rgba(0,197,97,0.5)",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-}
+import { renderCoupleNames, renderDateTime } from "@utils/utils"
 
 const Headline = () => {
-  const renderName = (name: string) => {
-    return <span className="font-curly text-4xl xl:text-5xl">{name}</span>
-  }
-
-  const renderCoupleNames = () => {
-    return (
-      <div className="my-5 font-curly text-4xl xl:text-5xl">
-        {renderName(COUPLES.wife.name)} & {renderName(COUPLES.husband.name)}
-      </div>
-    )
-  }
-
-  const renderDateTime = () => {
-    return (
-      <div className="my-3 flex items-center justify-center">
-        <ImCalendar size={20} className="mr-2" />
-        {MARRIAGE_TIME.DATE.ID}
-      </div>
-    )
-  }
   return (
     <Card title="Pernikahan">
       {renderCoupleNames()}

@@ -1,7 +1,6 @@
 import React from "react"
 
 import Card from "@components/Card"
-import Dalil from "@components/Dalil"
 
 const cardStyle = {
   backgroundColor: "rgba(0,197,97,0.5)",
@@ -27,16 +26,11 @@ const Rewards = () => {
       </div>
       <div>QS. An-Nur: 32</div>
 
-      <label htmlFor="my-modal-4" className="modal-button btn btn-outline my-3">
+      <label
+        htmlFor="modal-dalil"
+        className="modal-button btn btn-outline my-3"
+      >
         Lihat Dalil Nikah Lainnya!
-      </label>
-
-      <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-      <label htmlFor="my-modal-4" className="modal cursor-pointer">
-        <label className="modal-box relative" htmlFor="">
-          {/* eslint-disable-next-line react/jsx-no-undef */}
-          <Dalil />
-        </label>
       </label>
     </Card>
   )
