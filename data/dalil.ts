@@ -35,7 +35,15 @@ export const DALILS: IDalil[] = [
       "Jika seseorang menikah, maka ia telah menyempurnakan separuh agamanya. Karenanya, bertakwalah pada Allah pada separuh yang lainnya",
   },
   {
-    title: "Dapat Menjaga Dari Yang Haram",
+    title: "Terpelihara Dari 2 Keburukan",
+    arab: "مَنْ وَقَاهُ اللهُ شَرَّ اثْنَيْنِ وَلَجَ الْجَنَّةَ: مَـا بَيْنَ لَحْيَيْهِ، وَمَـا بَيْـنَ رِجْلَيْهِ",
+    intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
+    source: "(HR. At-Tirmidzi no. 2411)",
+    content:
+      "Barangsiapa yang dipelihara oleh Allah dari keburukan dua perkara, niscaya ia masuk Surga: Apa yang terdapat di antara kedua tulang dagunya (mulutnya) dan apa yang berada di antara kedua kakinya (kemaluannya)",
+  },
+  {
+    title: "Menjaga Dari Yang Haram",
     arab: "إيَا مَعْشَرَ الشَّبَابِ مَنِ اسْتَطَاعَ مِنْكُمُ الْبَاءَةَ فَلْيَتَزَوَّجْ فَإِنَّهُ أَغَضُّ لِلْبَصَرِ وَأَحْصَنُ لِلْفَرْجِ وَمَنْ لَمْ يَسْتَطِعْ فَعَلَيْهِ بِالصَّوْمِ فَإِنَّهُ لَهُ وِجَاءٌ",
     intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
     source: "(HR. Bukhari no. 5065 dan HR. Muslim no. 1400)",
@@ -50,6 +58,14 @@ export const DALILS: IDalil[] = [
       "(HR. At-Tirmidzi dari Abu Hurairah radhiyallahu’anhu, Shahihul Jami’: 3050)",
     content:
       "Ada tiga orang yang Allah wajibkan atas diri-Nya untuk menolong mereka, Orang yang berjihad di jalan Allah, Budak yang memiliki perjanjian yang berniat memenuhi perjanjiannya, dan orang yang menikah dengan niat menjaga kesucian diri dari perzinahan",
+  },
+  {
+    title: "Merupakan Sunnah Rasulullah ﷺ",
+    arab: "أَرْبَعٌ مِنْ سُـنَنِ الْمُرْسَلِيْنَ: اَلْحَيَـاءُ، وَالتَّعَطُّرُ، وَالسِّوَاكُ، وَالنِّكَاحُ",
+    intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
+    source: "(HR. At-Tirmidzi no. 1086)",
+    content:
+      "Ada empat perkara yang termasuk Sunnah para Rasul: rasa-malu, memakai wewangian, bersiwak, dan menikah",
   },
   {
     title: "Memperbanyak Umat Rasulullah ﷺ",
