@@ -24,8 +24,8 @@ export default function Home() {
         <Rewards />
         <Event />
         <Pray />
-        <ThankYou />
         <ProtocolHealth />
+        <ThankYou />
         <Dalil />
       </main>
     </>
