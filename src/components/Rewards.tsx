@@ -1,13 +1,8 @@
 import React from "react"
 
-import Card from "@components/Card"
+import { FaStarAndCrescent } from "react-icons/fa"
 
-const cardStyle = {
-  backgroundColor: "rgba(0,197,97,0.5)",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-}
+import Card from "@components/Card"
 
 const Rewards = () => {
   return (
@@ -30,6 +25,7 @@ const Rewards = () => {
         htmlFor="modal-dalil"
         className="modal-button btn btn-outline my-3"
       >
+        <FaStarAndCrescent size={20} className="mr-2" />
         Lihat Dalil Nikah Lainnya!
       </label>
     </Card>
