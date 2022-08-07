@@ -30,7 +30,11 @@ export const MARRIAGE = {
     endTime: "15:30",
   },
   location: {
-    place: "Jl. At-Taqwa Muhajirun, Negara Ratu, Kec. Natar, Lampung 35362",
-    url: "http://maps.google.com/maps?q=loc:-5.325106,%20105.172285",
+    place:
+      "Kediaman Mempelai Wanita: Pondok Pesantren Al-Fatah. Gg. Tasamuh,  Muhajirun, Negararatu, Natar, Lampung Selatan, prov. Lampung Rt. 36, RW. 14 No. 129 (35362)",
+    url: "https://www.google.com/maps?q=-5.3251859,105.1718993",
+  },
+  form: {
+    url: "https://forms.gle/QqD2EnSwFp5MzGuR7",
   },
 }

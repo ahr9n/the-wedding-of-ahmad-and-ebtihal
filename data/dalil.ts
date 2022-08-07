@@ -10,6 +10,14 @@ export const DALILS: IDalil[] = [
       "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir",
   },
   {
+    title: "QS An-Nisa Ayat 1",
+    arab: "يٰٓاَيُّهَا النَّاسُ اتَّقُوْا رَبَّكُمُ الَّذِيْ خَلَقَكُمْ مِّنْ نَّفْسٍ وَّاحِدَةٍ وَّخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيْرًا وَّنِسَاۤءً ۚ وَاتَّقُوا اللّٰهَ الَّذِيْ تَسَاۤءَلُوْنَ بِهٖ وَالْاَرْحَامَ ۗ اِنَّ اللّٰهَ كَانَ عَلَيْكُمْ رَقِيْبًا",
+    intro: null,
+    source: "QS An-Nisa (4): 1",
+    content:
+      "Wahai manusia! Bertakwalah kepada Tuhanmu yang telah menciptakan kamu dari diri yang satu (Adam), dan (Allah) menciptakan pasangannya (Hawa) dari (diri)-nya; dan dari keduanya Allah memperkembangbiakkan laki-laki dan perempuan yang banyak. Bertakwalah kepada Allah yang dengan nama-Nya kamu saling meminta, dan (peliharalah) hubungan kekeluargaan. Sesungguhnya Allah selalu menjaga dan mengawasimu",
+  },
+  {
     title: "QS Az-Zariyat Ayat 49",
     arab: "وَمِنْ كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
     intro: null,
@@ -35,7 +43,15 @@ export const DALILS: IDalil[] = [
       "Jika seseorang menikah, maka ia telah menyempurnakan separuh agamanya. Karenanya, bertakwalah pada Allah pada separuh yang lainnya",
   },
   {
-    title: "Dapat Menjaga Dari Yang Haram",
+    title: "Terpelihara Dari 2 Keburukan",
+    arab: "مَنْ وَقَاهُ اللهُ شَرَّ اثْنَيْنِ وَلَجَ الْجَنَّةَ: مَـا بَيْنَ لَحْيَيْهِ، وَمَـا بَيْـنَ رِجْلَيْهِ",
+    intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
+    source: "(HR. At-Tirmidzi no. 2411)",
+    content:
+      "Barangsiapa yang dipelihara oleh Allah dari keburukan dua perkara, niscaya ia masuk Surga: Apa yang terdapat di antara kedua tulang dagunya (mulutnya) dan apa yang berada di antara kedua kakinya (kemaluannya)",
+  },
+  {
+    title: "Menjaga Dari Yang Haram",
     arab: "إيَا مَعْشَرَ الشَّبَابِ مَنِ اسْتَطَاعَ مِنْكُمُ الْبَاءَةَ فَلْيَتَزَوَّجْ فَإِنَّهُ أَغَضُّ لِلْبَصَرِ وَأَحْصَنُ لِلْفَرْجِ وَمَنْ لَمْ يَسْتَطِعْ فَعَلَيْهِ بِالصَّوْمِ فَإِنَّهُ لَهُ وِجَاءٌ",
     intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
     source: "(HR. Bukhari no. 5065 dan HR. Muslim no. 1400)",
@@ -50,6 +66,14 @@ export const DALILS: IDalil[] = [
       "(HR. At-Tirmidzi dari Abu Hurairah radhiyallahu’anhu, Shahihul Jami’: 3050)",
     content:
       "Ada tiga orang yang Allah wajibkan atas diri-Nya untuk menolong mereka, Orang yang berjihad di jalan Allah, Budak yang memiliki perjanjian yang berniat memenuhi perjanjiannya, dan orang yang menikah dengan niat menjaga kesucian diri dari perzinahan",
+  },
+  {
+    title: "Merupakan Sunnah Rasulullah ﷺ",
+    arab: "أَرْبَعٌ مِنْ سُـنَنِ الْمُرْسَلِيْنَ: اَلْحَيَـاءُ، وَالتَّعَطُّرُ، وَالسِّوَاكُ، وَالنِّكَاحُ",
+    intro: "Rasulullah shallallahu ‘alaihi wa sallam bersabda",
+    source: "(HR. At-Tirmidzi no. 1086)",
+    content:
+      "Ada empat perkara yang termasuk Sunnah para Rasul: rasa-malu, memakai wewangian, bersiwak, dan menikah",
   },
   {
     title: "Memperbanyak Umat Rasulullah ﷺ",
