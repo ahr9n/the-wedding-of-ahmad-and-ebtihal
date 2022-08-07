@@ -3,6 +3,7 @@ import React from "react"
 import Link from "next/link"
 import { BsClockFill } from "react-icons/bs"
 import { FaMapMarkedAlt } from "react-icons/fa"
+import { FiSend } from "react-icons/fi"
 import { ImCalendar, ImLocation } from "react-icons/im"
 
 import { COUPLES, MARRIAGE } from "data/wedding"
@@ -42,7 +43,7 @@ export const renderLocation = () => {
   return (
     <div>
       <div className="my-3 flex items-center justify-center">
-        <ImLocation size={22} />
+        <ImLocation size={23} />
         <div className="ml-2 font-bold">Lokasi</div>
       </div>
       <div>{MARRIAGE.location.place}</div>
@@ -57,6 +58,19 @@ export const renderButtonLocation = () => {
         <a className="btn btn-outline" target="__blank">
           <FaMapMarkedAlt size={25} className="mr-2" />
           Lihat pada maps!
+        </a>
+      </Link>
+    </div>
+  )
+}
+
+export const renderSendPrayButton = () => {
+  return (
+    <div className="my-3 flex items-center justify-center">
+      <Link href={MARRIAGE.form.url}>
+        <a className="btn btn-outline" target="__blank">
+          <FiSend size={20} className="mr-2" />
+          Kirim Doa & Ucapan!
         </a>
       </Link>
     </div>
