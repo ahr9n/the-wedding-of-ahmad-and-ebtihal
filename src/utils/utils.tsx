@@ -8,14 +8,10 @@ import { ImCalendar, ImLocation } from "react-icons/im"
 
 import { COUPLES, MARRIAGE } from "data/wedding"
 
-const renderName = (name: string) => {
-  return <span className="font-curly text-4xl xl:text-5xl">{name}</span>
-}
-
 export const renderCoupleNames = () => {
   return (
     <div className="my-5 font-curly text-4xl xl:text-5xl">
-      {renderName(COUPLES.wife.name)} & {renderName(COUPLES.husband.name)}
+      {COUPLES.wife.name} & {COUPLES.husband.name}
     </div>
   )
 }
