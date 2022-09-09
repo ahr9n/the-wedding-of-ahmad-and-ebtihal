@@ -17,7 +17,9 @@ const Invitation = () => {
     return (
       <div>
         <h1 className="font-curly text-4xl xl:text-6xl">{fullName}</h1>
-        <div className="my-2">بنت <b>السيد {father}</b></div>
+        <div className="my-2">
+          بنت <b>السيد {father}</b>
+        </div>
       </div>
     )
   }

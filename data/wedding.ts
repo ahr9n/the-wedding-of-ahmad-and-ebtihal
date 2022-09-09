@@ -24,8 +24,7 @@ export const MARRIAGE = {
     endTime: "20:00",
   },
   location: {
-    place:
-      "Kafr El-Sheikh Selim, Tanta, Gharbiah, Egypt",
+    place: "Kafr El-Sheikh Selim, Tanta, Gharbiah, Egypt",
     url: "https://www.google.com/maps?q=30.7356395,30.9755261",
   },
   form: {

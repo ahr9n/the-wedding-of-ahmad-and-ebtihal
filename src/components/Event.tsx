@@ -13,7 +13,9 @@ const Event = () => {
   return (
     <Card title="دعوة حفل الزفاف">
       {renderCoupleNames()}
-      <div>إنه لشرف وسعادة لنا أن ندعوكم للحضور ولمباركة كل من العروس والعريس</div>
+      <div>
+        إنه لشرف وسعادة لنا أن ندعوكم للحضور ولمباركة كل من العروس والعريس
+      </div>
       <div className="mt-6 text-2xl font-bold">مراسم استقبال حفل الزفاف</div>
       {renderDateTime()}
       {renderDurationTime()}

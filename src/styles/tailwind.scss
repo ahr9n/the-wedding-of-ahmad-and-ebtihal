@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Lobster&display=swap");
 
 /* purgecss start ignore */
 @tailwind base;
@@ -26,7 +26,8 @@ html {
 @media only screen and (max-width: 600px) {
   body {
     height: 100%;
-    background: url("/background/forest-mobile.jpg") no-repeat center center fixed;
+    background: url("/background/forest-mobile.jpg") no-repeat center center
+      fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
