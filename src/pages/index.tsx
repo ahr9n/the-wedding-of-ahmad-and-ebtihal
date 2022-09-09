@@ -7,7 +7,6 @@ import Event from "@components/Event"
 import Headline from "@components/Headline"
 import Invitation from "@components/Invitation"
 import Pray from "@components/Pray"
-import ProtocolHealth from "@components/ProtocolHealth"
 import Rewards from "@components/Rewards"
 import ThankYou from "@components/ThankYou"
 
@@ -15,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wedding of Ismi & Hasan</title>
+        <title>Wedding of Ahmad & Ebtihal</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-center py-5">
@@ -24,7 +23,6 @@ export default function Home() {
         <Rewards />
         <Event />
         <Pray />
-        <ProtocolHealth />
         <ThankYou />
         <Dalil />
       </main>

@@ -20,20 +20,20 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Wedding Website of Ismi Dinda Muslimah & Muhammad Hasan"
+            content="Wedding Website of Ahmad Abdulrahman & Ebtihal Alaa"
           />
           <meta
             name="keywords"
             content="NextJS, Wedding Website, Daisy UI, Tailwind CSS"
           />
-          <meta property="og:title" content="The Wedding of Ismi & Hasan" />
+          <meta property="og:title" content="The Wedding of Ahmad & Ebtihal" />
           <meta
             property="og:image"
-            content="https://ik.imagekit.io/2louui6ojn7/Wedding/wedding-ismi-hasan_WkoRFlxR9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659798791093"
+            content="https://dynamic.brandcrowd.com/preview/logodraft/d1e37129-685b-4656-bb31-ed63f1d83577/image/large.png"
           />
           <meta
             property="og:description"
-            content="Wedding Website of Ismi Dinda Muslimah & Muhammad Hasan"
+            content="Wedding Website of Ahmad Abdulrahman & Ebtihal Alaa"
           />
           <meta property="og:url" content="www.ismi.mhasan01.com" />
           <link
