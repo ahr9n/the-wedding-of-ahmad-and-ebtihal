@@ -14,7 +14,7 @@ const Dalil = () => {
           <div className="mb-2 flex items-center justify-center text-center">
             <FaStarAndCrescent />
             <h3 className="ml-3 py-3 text-lg font-bold">
-              Dalil-Dalil Dalam Pernikahan
+              دليل مشروعية النكاح
             </h3>
           </div>
           <div className="dalil h-96 w-full items-center justify-center overflow-y-auto py-3 text-center">

@@ -8,7 +8,7 @@ const Credits = () => {
       <div className="mockup-code">
         <pre>
           <code>
-            Alhamdulillah, by The will of God, this web was made by Hasan
+            Alhamdulillah, by The will of God, this web was made by Ahmad
           </code>
         </pre>
         <pre>

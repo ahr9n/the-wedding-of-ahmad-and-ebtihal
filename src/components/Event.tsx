@@ -11,14 +11,12 @@ import {
 
 const Event = () => {
   return (
-    <Card title="Undangan dan Acara Pernikahan">
+    <Card title="دعوة حفل الزفاف">
       {renderCoupleNames()}
       <div>
-        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-        Bapak/Ibu/Saudara/I berkenan hadir untuk memberikan doa restu kepada
-        kedua mempelai
+      إنه لشرف وسعادة لنا أن ندعوكم للحضور ولمباركة كل من العروس والعريس
       </div>
-      <div className="mt-6 text-2xl font-bold">Akad & Resepsi Pernikahan</div>
+      <div className="mt-6 text-2xl font-bold">مراسم استقبال حفل الزفاف</div>
       {renderDateTime()}
       {renderDurationTime()}
       {renderLocation()}
