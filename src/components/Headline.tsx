@@ -6,7 +6,7 @@ import { renderCoupleNames, renderDateTime } from "@utils/utils"
 
 const Headline = () => {
   return (
-    <Card style="font-family: Reem Kufi;" title="حفل زفاف">
+    <Card title="حفل زفاف">
       {renderCoupleNames()}
       <div>سيتم حفل الزفاف بمشيئة الله في</div>
       {renderDateTime()}
