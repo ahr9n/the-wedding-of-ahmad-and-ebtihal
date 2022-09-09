@@ -2,39 +2,33 @@ import { ICouples } from "data/interfaces"
 
 export const COUPLES: ICouples = {
   husband: {
-    name: "Hasan",
-    fullName: "Muhammad Hasan",
-    father: "Sony Sugema (alm)",
-    mother: "Siti Romelah",
-    gender: "Putra",
-    childNum: 8,
+    name: "Ahmad",
+    fullName: "Ahmad Abdulrahman",
+    father: "Abdulrahman Radwan",
   },
   wife: {
-    name: "Ismi",
-    fullName: "Ismi Dinda Muslimah",
-    father: "Budiarso",
-    mother: "Ida Farida",
-    gender: "Putri",
-    childNum: 2,
+    name: "Ebtihal",
+    fullName: "Ebtihal Alaa",
+    father: "Alaa Hussein",
   },
 }
 
 export const MARRIAGE = {
   time: {
     date: {
-      en: "Saturday, 3 September 2022",
-      id: "Sabtu, 3 September 2022",
+      en: "Sunday, 18 September 2022",
+      id: "Sunday, 18 September 2022",
     },
-    dateValue: new Date("September 3, 2022"),
-    startTime: "08:30",
-    endTime: "15:30",
+    dateValue: new Date("September 18, 2022"),
+    startTime: "08:00",
+    endTime: "20:00",
   },
   location: {
     place:
-      "Kediaman Mempelai Wanita: Pondok Pesantren Al-Fatah. Gg. Tasamuh,  Muhajirun, Negararatu, Natar, Lampung Selatan, prov. Lampung Rt. 36, RW. 14 No. 129 (35362)",
-    url: "https://www.google.com/maps?q=-5.3251859,105.1718993",
+      "Kafr El-Sheikh Selim, Tanta, Gharbiah, Egypt",
+    url: "https://www.google.com/maps?q=30.7356395,30.9755261",
   },
   form: {
-    url: "https://forms.gle/QqD2EnSwFp5MzGuR7",
+    url: "https://forms.gle/",
   },
 }
