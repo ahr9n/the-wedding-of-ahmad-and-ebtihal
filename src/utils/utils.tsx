@@ -11,7 +11,7 @@ import { COUPLES, MARRIAGE } from "data/wedding"
 export const renderCoupleNames = () => {
   return (
     <div className="my-5 font-curly text-4xl xl:text-5xl">
-      {COUPLES.wife.name} & {COUPLES.husband.name}
+      {COUPLES.husband.name} & {COUPLES.wife.name}
     </div>
   )
 }
@@ -30,7 +30,7 @@ export const renderDurationTime = () => {
   return (
     <div className="flex items-center justify-center">
       <BsClockFill size={20} className="mr-2" />
-      في تمام الساعة {startTime} s/d {endTime}
+      بداية من تمام الساعة {startTime} حتى {endTime}
     </div>
   )
 }
