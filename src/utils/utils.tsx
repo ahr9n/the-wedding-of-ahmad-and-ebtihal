@@ -30,7 +30,7 @@ export const renderDurationTime = () => {
   return (
     <div className="flex items-center justify-center">
       <BsClockFill size={20} className="mr-2" />
-      Pukul {startTime} s/d {endTime}
+      في تمام الساعة {startTime} s/d {endTime}
     </div>
   )
 }
@@ -40,7 +40,7 @@ export const renderLocation = () => {
     <div>
       <div className="my-3 flex items-center justify-center">
         <ImLocation size={23} />
-        <div className="ml-2 font-bold">Lokasi</div>
+        <div className="ml-2 font-bold">المكان</div>
       </div>
       <div>{MARRIAGE.location.place}</div>
     </div>
@@ -53,7 +53,7 @@ export const renderButtonLocation = () => {
       <Link href={MARRIAGE.location.url}>
         <a className="btn btn-outline" target="__blank">
           <FaMapMarkedAlt size={25} className="mr-2" />
-          Lihat pada maps!
+          انظر في الخريطة
         </a>
       </Link>
     </div>
@@ -66,7 +66,7 @@ export const renderSendPrayButton = () => {
       <Link href={MARRIAGE.form.url}>
         <a className="btn btn-outline" target="__blank">
           <FiSend size={20} className="mr-2" />
-          Kirim Doa & Ucapan!
+          قم بإرسال دعوتك الخاصة من هنا
         </a>
       </Link>
     </div>

@@ -38,7 +38,7 @@ const Rewards = () => {
         className="modal-button btn btn-outline my-3"
       >
         <FaStarAndCrescent size={20} className="mr-2" />
-        المزيد من الأدلة
+        للمزيد من الأدلة
       </label>
     </Card>
   )

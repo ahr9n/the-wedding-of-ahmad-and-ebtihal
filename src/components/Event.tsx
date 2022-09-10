@@ -14,9 +14,11 @@ const Event = () => {
     <Card title="دعوة حفل الزفاف">
       {renderCoupleNames()}
       <div>
-        إنه لشرف وسعادة لنا أن ندعوكم للحضور ولمباركة كل من العروس والعريس
+        المجد أقبل بالأفراح مبتسما • والسعد أمسى على الأكوان مرتسما
+        وطائر الجود من عليائه صدحا • وكوكب السعد في أفق العُلا نجما
+        يشرّفنا ويُسعدنا أن ندعوكم للحضور ولمباركة العروسين
       </div>
-      <div className="mt-6 text-2xl font-bold">مراسم استقبال حفل الزفاف</div>
+      <div className="mt-6 text-2xl font-bold">محل الزفاف</div>
       {renderDateTime()}
       {renderDurationTime()}
       {renderLocation()}

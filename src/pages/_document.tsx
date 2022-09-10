@@ -35,7 +35,7 @@ class MyDocument extends Document {
             property="og:description"
             content="Wedding Website of Ahmad Abdulrahman & Ebtihal Alaa"
           />
-          <meta property="og:url" content="www.ismi.mhasan01.com" />
+          <meta property="og:url" content="https://ahmadebtihalwedding.netlify.app/" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"

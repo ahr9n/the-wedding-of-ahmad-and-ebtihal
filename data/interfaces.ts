@@ -2,6 +2,7 @@ export interface ICouple {
   name: string
   fullName: string
   father: string
+  relation: string
 }
 
 export interface ICouples {

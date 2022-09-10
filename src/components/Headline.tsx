@@ -8,7 +8,7 @@ const Headline = () => {
   return (
     <Card title="حفل زفاف">
       {renderCoupleNames()}
-      <div>سيتم حفل الزفاف بمشيئة الله في</div>
+      <div>سيتم حفل الزفاف بمشيئته تعالى في</div>
       {renderDateTime()}
       <Countdown />
     </Card>

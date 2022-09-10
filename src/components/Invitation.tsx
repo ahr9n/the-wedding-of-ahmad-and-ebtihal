@@ -13,12 +13,11 @@ const cardStyle = {
 
 const Invitation = () => {
   const renderName = (couple: ICouple) => {
-    const { fullName, father } = couple
+    const { fullName, father, relation } = couple
     return (
       <div>
         <h1 className="font-curly text-4xl xl:text-6xl">{fullName}</h1>
-        <div className="my-2">
-          بنت <b>السيد {father}</b>
+        <div className="my-2">{relation} <b>السيد {father}</b>
         </div>
       </div>
     )
@@ -36,7 +35,7 @@ const Invitation = () => {
 
   return (
     <Card title="السلام عليكم ورحمة الله وبركاته">
-      <h3>ننوي بفضل الله دعوة الأب/الأم/الأشقاء لحضور حفل زفاف:</h3>
+      <h3>بقلوبٍ مليئة بالحب ولأننا لا نشعر بسعادة إلا عندما نتشاركها يسُرُّنا دعوتكم لحضور وليمة زواج</h3>
       {renderCoupleNames()}
     </Card>
   )
