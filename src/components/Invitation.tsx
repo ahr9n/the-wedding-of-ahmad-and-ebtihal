@@ -17,7 +17,8 @@ const Invitation = () => {
     return (
       <div>
         <h1 className="font-curly text-4xl xl:text-6xl">{fullName}</h1>
-        <div className="my-2">{relation} <b>السيد {father}</b>
+        <div className="my-2">
+          {relation} <b>السيد {father}</b>
         </div>
       </div>
     )
@@ -35,7 +36,10 @@ const Invitation = () => {
 
   return (
     <Card title="السلام عليكم ورحمة الله وبركاته">
-      <h3>بقلوبٍ مليئة بالحب ولأننا لا نشعر بسعادة إلا عندما نتشاركها يسُرُّنا دعوتكم لحضور وليمة زواج</h3>
+      <h3>
+        بقلوبٍ مليئة بالحب ولأننا لا نشعر بسعادة إلا عندما نتشاركها يسُرُّنا
+        دعوتكم لحضور وليمة زواج
+      </h3>
       {renderCoupleNames()}
     </Card>
   )

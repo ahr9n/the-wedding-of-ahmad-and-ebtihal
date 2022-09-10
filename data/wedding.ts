@@ -5,13 +5,13 @@ export const COUPLES: ICouples = {
     name: "Ahmad",
     fullName: "Ahmad Abdulrahman",
     father: "عبد الرحمن رضوان",
-    relation: "نجل"
+    relation: "نجل",
   },
   wife: {
     name: "Ebtihal",
     fullName: "Ebtihal Alaa",
     father: "علاء حسين",
-    relation: "كريمة"
+    relation: "كريمة",
   },
 }
 
