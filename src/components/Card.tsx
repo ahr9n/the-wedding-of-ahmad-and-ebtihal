@@ -1,7 +1,7 @@
 import React from "react"
 
 const cardStyle = {
-  fontFamily: "Reem Kufi",
+  fontFamily: "Amiri",
   fontSize: "25px",
   backgroundColor: "rgba(0,197,97,0.5)",
   backgroundImage: `url("/background/floral-bg.jpg")`,
