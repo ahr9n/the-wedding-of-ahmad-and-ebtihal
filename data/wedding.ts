@@ -30,6 +30,6 @@ export const MARRIAGE = {
     url: "https://www.google.com/maps?q=30.7356395,30.9755261",
   },
   form: {
-    url: "https://forms.gle/",
+    url: "https://forms.gle/LRKxGUcvCF8qSCNJA",
   },
 }
