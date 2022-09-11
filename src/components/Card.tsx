@@ -4,7 +4,7 @@ const cardStyle = {
   fontFamily: "Amiri",
   fontSize: "26px",
   backgroundColor: "rgba(0,197,97,0.5)",
-  backgroundImage: `url("/background/floral-variance.webp")`,
+  backgroundImage: `url("/background/floral-bg.jpg")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

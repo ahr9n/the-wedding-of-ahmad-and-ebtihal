@@ -16,11 +16,14 @@ export const renderCoupleNames = () => {
   )
 }
 
-export const renderDateTime = () => {
+export const renderDateTime = (card = "invitation") => {
+  let now = MARRIAGE.time.date.id
+  if (card == "headline") now = MARRIAGE.time.date.en
+
   return (
     <div className="my-3 flex items-center justify-center">
       <ImCalendar size={20} className="mr-2" />
-      {MARRIAGE.time.date.id}
+      {now}
     </div>
   )
 }
