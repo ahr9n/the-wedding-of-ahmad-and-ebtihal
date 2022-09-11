@@ -3,15 +3,15 @@ import { ICouples } from "data/interfaces"
 export const COUPLES: ICouples = {
   husband: {
     name: "Ahmad",
-    fullName: "Ahmad Abdulrahman",
+    fullName: "أحمد عبد الرحمن",
     father: "عبد الرحمن رضوان",
-    relation: "نجل",
+    relation: "نجل الشيخ",
   },
   wife: {
     name: "Ebtihal",
-    fullName: "Ebtihal Alaa",
+    fullName: "إبتهال علاء",
     father: "علاء حسين",
-    relation: "كريمة",
+    relation: "كريمة الأستاذ",
   },
 }
 
@@ -19,14 +19,14 @@ export const MARRIAGE = {
   time: {
     date: {
       en: "Sunday, 18 September 2022",
-      id: "Sunday, 18 September 2022",
+      id: "يوم الأحد، الموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية، الموافق الثامن عشر من شهر سبتمبر للعام 2022 ميلادية",
     },
     dateValue: new Date("September 18, 2022"),
-    startTime: "08:00",
-    endTime: "20:00",
+    startTime: "03:00",
+    endTime: "09:00",
   },
   location: {
-    place: "Kafr El-Sheikh Selim, Tanta, Gharbiah, Egypt",
+    place: "منزل العريس بقرية كفر الشيخ سليم",
     url: "https://www.google.com/maps?q=30.7356395,30.9755261",
   },
   form: {
