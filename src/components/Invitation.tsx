@@ -1,12 +1,11 @@
 import React from "react"
-
 import Card from "@components/Card"
-import { renderDateTime,
+import { 
+  renderDateTime,
   renderButtonLocation,
   renderDurationTime,
-  renderLocation
+  renderLocation,
 } from "@utils/utils"
-
 import { ICouple } from "data/interfaces"
 import { COUPLES } from "data/wedding"
 
