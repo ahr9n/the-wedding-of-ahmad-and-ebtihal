@@ -7,7 +7,6 @@ import {
   renderDurationTime,
   renderLocation,
 } from "@utils/utils"
-
 import { ICouple } from "data/interfaces"
 import { COUPLES } from "data/wedding"
 
