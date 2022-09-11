@@ -19,7 +19,7 @@ const cardStyle = {
   backgroundSize: "cover",
 }
 
-const Headline = () => {
+const Invitation = () => {
   const renderName = (couple: ICouple) => {
     const { fullName, father, relation } = couple
     return (
