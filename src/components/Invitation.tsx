@@ -1,6 +1,12 @@
 import React from "react"
 
 import Card from "@components/Card"
+import {
+  renderDateTime,
+  renderButtonLocation,
+  renderDurationTime,
+  renderLocation,
+} from "@utils/utils"
 import { ICouple } from "data/interfaces"
 import { COUPLES } from "data/wedding"
 
@@ -18,7 +24,7 @@ const Invitation = () => {
       <div>
         <h1 className="font-curly text-4xl xl:text-6xl">{fullName}</h1>
         <div className="my-2">
-          {relation} <b>السيد {father}</b>
+          {relation} <b>{father}</b>
         </div>
       </div>
     )
@@ -35,12 +41,21 @@ const Invitation = () => {
   }
 
   return (
-    <Card title="السلام عليكم ورحمة الله وبركاته">
+    <Card title="وليمة زواج وحفل زفاف">
+      <div className="my-5 font-curly text-4xl xl:text-5xl">
+        {COUPLES.husband.name} & {COUPLES.wife.name}
+      </div>
+
       <h3>
-        بقلوبٍ مليئة بالحب ولأننا لا نشعر بسعادة إلا عندما نتشاركها يسُرُّنا
-        دعوتكم لحضور وليمة زواج
+        بقلوبٍ مليئة بالحب يشرّفنا دعوة سيادتكم لحضور وليمة الغداء وحفل زفاف
       </h3>
       {renderCoupleNames()}
+
+      <div></div>
+      {renderDateTime()}
+      {renderDurationTime()}
+      {renderLocation()}
+      {renderButtonLocation()}
     </Card>
   )
 }

@@ -6,9 +6,8 @@ import { renderCoupleNames, renderDateTime } from "@utils/utils"
 
 const Headline = () => {
   return (
-    <Card title="حفل زفاف">
+    <Card title="وليمة زواج وحفل زفاف">
       {renderCoupleNames()}
-      <div>سيتم حفل الزفاف بمشيئته تعالى في</div>
       {renderDateTime()}
       <Countdown />
     </Card>
