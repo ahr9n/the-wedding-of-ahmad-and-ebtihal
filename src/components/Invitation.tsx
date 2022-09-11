@@ -1,12 +1,10 @@
 import React from "react"
 
 import Card from "@components/Card"
-import Countdown from "@components/Countdown"
-import {
-  renderDateTime,
+import { renderDateTime,
   renderButtonLocation,
   renderDurationTime,
-  renderLocation,
+  renderLocation
 } from "@utils/utils"
 
 import { ICouple } from "data/interfaces"
