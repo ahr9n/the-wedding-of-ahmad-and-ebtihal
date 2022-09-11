@@ -2,7 +2,7 @@ import React from "react"
 
 const cardStyle = {
   fontFamily: "Amiri",
-  fontSize: "25px",
+  fontSize: "26px",
   backgroundColor: "rgba(0,197,97,0.5)",
   backgroundImage: `url("/background/floral-bg.jpg")`,
   backgroundPosition: "center",
