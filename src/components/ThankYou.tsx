@@ -5,7 +5,7 @@ const ThankYou = () => {
   return (
     <Card title="شكرا لك">
       {renderCoupleNames()}
-      <div>تشرّفنا بحضورك ومباركتك، والعاقبة عندكم في المسرّات</div>
+      <div>تشرّفنا بحضوركم، والعاقبة عندكم في المسرّات</div>
     </Card>
   )
 }
