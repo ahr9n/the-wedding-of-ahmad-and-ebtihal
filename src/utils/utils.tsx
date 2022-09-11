@@ -30,7 +30,7 @@ export const renderDurationTime = () => {
   return (
     <div className="flex items-center justify-center">
       <BsClockFill size={20} className="mr-2" />
-      بداية من تمام الساعة {startTime} حتى {endTime}
+      سيبدأ تقديم الوليمة في تمام الساعة {startTime} عصرًا
     </div>
   )
 }
