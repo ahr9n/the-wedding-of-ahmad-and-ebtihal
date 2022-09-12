@@ -16,10 +16,11 @@ export const COUPLES: ICouples = {
 }
 
 export const MARRIAGE = {
+  let now = "يوم الأحد" + "/n" + "الموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية" + "/n" + "الثامن عشر من شهر سبتمبر للعام 2022 ميلادية";
   time: {
     date: {
       en: "Sunday, 18 September 2022",
-      id: ‎"يوم الأحد"+"/n"+"الموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية"+"/n"+"الثامن عشر من شهر سبتمبر للعام 2022 ميلادية",
+      id: now,
     },
     dateValue: new Date("September 18, 2022"),
     startTime: "03:00",
