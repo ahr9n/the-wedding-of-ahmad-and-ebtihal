@@ -30,9 +30,9 @@ export const renderDateTime = (card = "invitation") => {
     return (
       <div className="my-3 flex items-center justify-center">
         <ImCalendar size={26} className="mr-2" />
-        <a>{now.day}</a>
-        <a>{now.hijri}</a>
-        <a>{now.miladi}</a>
+        <div>{now.day}</div>
+        <div>{now.hijri}</div>
+        <div>{now.miladi}</div>
       </div>
     )
   }
