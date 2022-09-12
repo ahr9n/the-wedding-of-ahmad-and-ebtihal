@@ -7,7 +7,7 @@ import Card from "@components/Card"
 const Rewards = () => {
   return (
     <Card title="دليل مشروعية النكاح">
-      <div className="my-7 font-amiri text-xl xl:px-7 xl:text-3xl">
+      <div className="font-amiri my-7 text-xl xl:px-7 xl:text-3xl">
         وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا
         لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ إِنَّ
         فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ
