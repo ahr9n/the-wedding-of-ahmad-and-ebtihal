@@ -22,7 +22,7 @@ const Invitation = () => {
     const { fullName, father, relation } = couple
     return (
       <div>
-        <h1 className="font-curly text-4xl xl:text-6xl">{fullName}</h1>
+        <h1 className="font-gulzar text-4xl xl:text-6xl">{fullName}</h1>
         <div className="my-2">
           {relation} <b>{father}</b>
         </div>
@@ -41,14 +41,10 @@ const Invitation = () => {
   }
 
   return (
-    <Card title="وليمة زواج وحفل زفاف">
-      <div className="my-5 font-curly text-4xl xl:text-5xl">
-        {COUPLES.husband.name} & {COUPLES.wife.name}
-      </div>
-
-      <h3>
-        بقلوبٍ مليئة بالحب يشرّفنا دعوة سيادتكم لحضور وليمة الغداء وحفل زفاف
-      </h3>
+    <Card>
+      <h2>
+        يشرّفنا ويُسعدنا دعوة سيادتكم لحضور وليمة الغداء وحفل زفاف
+      </h2>
       {renderCoupleNames()}
 
       <div></div>
