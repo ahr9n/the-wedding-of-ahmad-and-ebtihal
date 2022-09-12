@@ -41,7 +41,7 @@ const Invitation = () => {
   }
 
   return (
-    <Card>
+    <Card title="دعوة">
       <h2>يشرّفنا ويُسعدنا دعوة سيادتكم لحضور وليمة الغداء وحفل زفاف</h2>
       {renderCoupleNames()}
 
