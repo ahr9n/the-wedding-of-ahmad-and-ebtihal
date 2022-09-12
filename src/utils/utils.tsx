@@ -17,17 +17,25 @@ export const renderCoupleNames = () => {
 }
 
 export const renderDateTime = (card = "invitation") => {
-  let now = MARRIAGE.time.date.id
-  if (card == "headline") now = MARRIAGE.time.date.en
-
-  return (
-    <div className="my-3 flex items-center justify-center">
-      <ImCalendar size={20} className="mr-2" />
-      <p>{now.day}</p>
-      <p>{now.hijri}</p>
-      <p>{now.miladi}</p>
-    </div>
-  )
+  if (card == "headline"){
+    let now = MARRIAGE.time.date.en
+    return (
+      <div className="my-3 flex items-center justify-center">
+        <ImCalendar size={20} className="mr-2" />
+        {now}
+      </div>
+    )
+  } else {
+    let now = MARRIAGE.time.date.id
+    return (
+      <div className="my-3 flex items-center justify-center">
+        <ImCalendar size={20} className="mr-2" />
+        <p>{now.day}</p>
+        <p>{now.hijri}</p>
+        <p>{now.miladi}</p>
+      </div>
+    )
+  }
 }
 
 export const renderDurationTime = () => {
