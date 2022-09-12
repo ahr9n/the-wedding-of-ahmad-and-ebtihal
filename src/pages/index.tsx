@@ -14,7 +14,6 @@ export default function Home() {
     <>
       <Head>
         <title>Wedding of Ahmad & Ebtihal</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-center py-5">
         <Headline />
