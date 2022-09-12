@@ -29,10 +29,10 @@ export const renderDateTime = (card = "invitation") => {
     let now = MARRIAGE.time.date.id
     return (
       <div className="my-3 flex items-center justify-center">
-        <ImCalendar size={26} className="mr-2" />
-        <div>{now.day}</div>
-        <div>{now.hijri}</div>
         <div>{now.miladi}</div>
+        <div>{now.hijri}</div>
+        <div>{now.day}</div>
+        <ImCalendar size={26} className="mr-2" />
       </div>
     )
   }
@@ -42,8 +42,8 @@ export const renderDurationTime = () => {
   const { startTime, endTime } = MARRIAGE.time
   return (
     <div className="flex items-center justify-center">
-      <BsClockFill size={26} className="mr-2" />
       وسيبدأ تقديم الوليمة في تمام الساعة الثالثة عصرًا
+      <BsClockFill size={26} className="mr-2" />    
     </div>
   )
 }
@@ -52,8 +52,8 @@ export const renderLocation = () => {
   return (
     <div>
       <div className="my-3 flex items-center justify-center">
-        <ImLocation size={23} />
         <div className="ml-2 font-bold">المكان</div>
+        <ImLocation size={23} />
       </div>
       <div>{MARRIAGE.location.place}</div>
     </div>
