@@ -22,7 +22,7 @@ const Card = ({ children, title }: Props) => {
       className="by-5 card image-full my-5 w-11/12 text-neutral-content lg:w-1/2"
     >
       <div className="card-body items-center text-center">
-        <h2 className="card-title">{title}</h2>
+        <h1 className="card-title">{title}</h1>
         {children}
       </div>
     </div>
