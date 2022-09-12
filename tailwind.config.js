@@ -10,8 +10,8 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         curly: ["Great Vibes", ...defaultTheme.fontFamily.serif],
-        gulzar: ["Gulzar", ...defaultTheme.fontFamily.amiri],
-        ruqaa: ["Aref Ruqaa", ...defaultTheme.fontFamily.amiri],
+        gulzar: ["Gulzar", ...defaultTheme.fontFamily.serif],
+        ruqaa: ["Aref Ruqaa", ...defaultTheme.fontFamily.serif],
       },
     },
   },
