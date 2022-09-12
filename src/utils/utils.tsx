@@ -28,11 +28,13 @@ export const renderDateTime = (card = "invitation") => {
   } else {
     let now = MARRIAGE.time.date.id
     return (
-      <div className="my-3 flex items-center justify-center">
-        <p>{now.miladi}</p><hr>
-        <p>{now.hijri}</p>
-        <ImCalendar size={26} className="mr-2" /><hr>
-        <p>{now.day}</p>
+      <div className="my-3 flex items-center inline-block">
+        <p className="align-bottom">{now.miladi}</p>
+        <div className="align-middle">
+          <p>{now.hijri}</p>
+          <ImCalendar size={26} className="mr-2" />
+        </div>
+        <p className="align-top">{now.day}</p>
       </div>
     )
   }
