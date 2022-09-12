@@ -3,13 +3,13 @@ import { ICouples } from "data/interfaces"
 export const COUPLES: ICouples = {
   husband: {
     name: "Ahmad",
-    fullName: "أحمد عبد الرحمن",
+    fullName: "المهندس: أحمد عبد الرحمن",
     father: "عبد الرحمن رضوان",
     relation: "نجل الشيخ",
   },
   wife: {
     name: "Ebtihal",
-    fullName: "إبتهال علاء",
+    fullName: "المهندسة: إبتهال علاء",
     father: "علاء حسين",
     relation: "كريمة الأستاذ",
   },
