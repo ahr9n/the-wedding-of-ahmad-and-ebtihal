@@ -29,7 +29,7 @@ class MyDocument extends Document {
           <meta property="og:title" content="The Wedding of Ahmad & Ebtihal" />
           <meta
             property="og:image"
-            content="https://dynamic.brandcrowd.com/preview/logodraft/d1e37129-685b-4656-bb31-ed63f1d83577/image/large.png"
+            content="https://static.vecteezy.com/system/resources/previews/004/328/835/large_2x/muslim-wedding-in-white-dress-illustration-free-vector.jpg"
           />
           <meta
             property="og:description"
