@@ -23,7 +23,9 @@ export const renderDateTime = (card = "invitation") => {
   return (
     <div className="my-3 flex items-center justify-center">
       <ImCalendar size={20} className="mr-2" />
-      {now}
+      <p>{now.day}</p>
+      <p>{now.hijri}</p>
+      <p>{now.miladi}</p>
     </div>
   )
 }
