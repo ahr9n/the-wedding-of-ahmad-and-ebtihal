@@ -3,13 +3,13 @@ import { ICouples } from "data/interfaces"
 export const COUPLES: ICouples = {
   husband: {
     name: "Ahmad",
-    fullName: "أحمد عبد الرحمن",
+    fullName: "المهندس: أحمد عبد الرحمن",
     father: "عبد الرحمن رضوان",
     relation: "نجل الشيخ",
   },
   wife: {
     name: "Ebtihal",
-    fullName: "إبتهال علاء",
+    fullName: "المهندسة: إبتهال علاء",
     father: "علاء حسين",
     relation: "كريمة الأستاذ",
   },
@@ -19,7 +19,7 @@ export const MARRIAGE = {
   time: {
     date: {
       en: "Sunday, 18 September 2022",
-      id: "يوم الأحد، الموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية، الموافق الثامن عشر من شهر سبتمبر للعام 2022 ميلادية",
+      id: "يوم الأحد/nالموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية/nالثامن عشر من شهر سبتمبر للعام 2022 ميلادية",
     },
     dateValue: new Date("September 18, 2022"),
     startTime: "03:00",

@@ -4,7 +4,7 @@ import { renderSendPrayButton } from "@utils/utils"
 const Pray = () => {
   return (
     <Card title="الدعاء بالخير والبركة للعروسين">
-      <div className="my-3 font-serif text-3xl">
+      <div className="my-3 font-aref-ruqaa text-3xl">
         بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
       </div>
       <div>
