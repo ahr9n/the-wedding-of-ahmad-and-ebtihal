@@ -3,31 +3,31 @@ import { ICouples } from "data/interfaces"
 export const COUPLES: ICouples = {
   husband: {
     name: "Ahmad",
-    fullName: "المهندس: أحمد عبد الرحمن",
-    father: "عبد الرحمن رضوان",
-    relation: "نجل الشيخ",
+    fullName: "المهندس: أحمد هلال",
+    father: "هلال الفقي",
+    relation: "نجل المرحوم",
   },
   wife: {
-    name: "Ebtihal",
-    fullName: "المهندسة: إبتهال علاء",
-    father: "علاء حسين",
-    relation: "كريمة الأستاذ",
+    name: "Hager",
+    fullName: "الدكتورة: هاجر فوزي",
+    father: "فوزي رحاب",
+    relation: "كريمة المرحوم",
   },
 }
 
 export const MARRIAGE = {
   time: {
     date: {
-      en: "Sunday, 18 September 2022",
+      en: "Sat, 12 August 2023",
       id: {
-        day: "يوم الأحد",
-        hijri: "الموافق الثاني والعشرين من شهر صفر للعام 1444 هجرية",
-        miladi: "الثامن عشر من شهر سبتمبر للعام 2022 ميلادية",
+        day: "يوم السبت",
+        hijri: "الموافق الخامس والعشرين من شهر الله المحرم للعام ١٤٤٥ هجرية",
+        miladi: "الثاني عشر من شهر أغسطس للعام ٢٠٢٣ ميلادية",
       },
     },
-    dateValue: new Date("September 18, 2022"),
-    startTime: "03:00",
-    endTime: "09:00",
+    dateValue: new Date("August 12, 2023"),
+    startTime: "21:00",
+    endTime: "23:59",
   },
   location: {
     place: "منزل العريس بقرية كفر الشيخ سليم",

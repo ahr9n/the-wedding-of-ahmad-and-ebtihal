@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wedding of Ahmad & Ebtihal</title>
+        <title>Wedding of Ahmad & Hager</title>
       </Head>
       <main className="flex flex-col items-center justify-center py-5">
         <Headline />

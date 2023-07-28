@@ -20,24 +20,24 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Wedding Website of Ahmad Abdulrahman & Ebtihal Alaa"
+            content="Wedding Website of Ahmad Helal & Hager Fawzy"
           />
           <meta
             name="keywords"
             content="NextJS, Wedding Website, Daisy UI, Tailwind CSS"
           />
-          <meta property="og:title" content="The Wedding of Ahmad & Ebtihal" />
+          <meta property="og:title" content="The Wedding of Ahmad & Hager" />
           <meta
             property="og:image"
             content="https://static.vecteezy.com/system/resources/previews/004/328/835/large_2x/muslim-wedding-in-white-dress-illustration-free-vector.jpg"
           />
           <meta
             property="og:description"
-            content="Wedding Website of Ahmad Abdulrahman & Ebtihal Alaa"
+            content="Wedding Website of Ahmad Helal & Hager Fawzy"
           />
           <meta
             property="og:url"
-            content="https://ahmadebtihalwedding.netlify.app/"
+            content="https://ahmadhagerwedding.netlify.app/"
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
