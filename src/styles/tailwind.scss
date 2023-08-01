@@ -19,7 +19,7 @@
 html {
   @apply antialiased;
   height: 100%;
-  background: url("/background/flowers-and-berries.jpg") no-repeat center center fixed;
+  background: url("/background/floral-yellow.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,7 +29,7 @@ html {
 @media only screen and (max-width: 600px) {
   body {
     height: 100%;
-    background: url("/background/flowers-and-berries.jpg") no-repeat center center
+    background: url("/background/floral-yellow.jpg") no-repeat center center
       fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -52,7 +52,7 @@ export const renderLocation = () => {
   return (
     <div>
       <div className="my-3 flex items-center justify-center">
-        <div className="ml-2 font-bold">المكان</div>
+        <div className="ml-2 font-bold"> المكان</div>
         <ImLocation size={23} />
       </div>
       <div>{MARRIAGE.location.place}</div>
