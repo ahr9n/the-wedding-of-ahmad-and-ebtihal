@@ -30,7 +30,7 @@ export const renderDateTime = (card = "invitation") => {
     return (
       <div className="my-3 flex items-center justify-center">
         <div>{now.miladi}</div>
-        <div>{now.hijri}</div>
+        {/* <div>{now.hijri}</div> */}
         <div>{now.day}</div>
         <ImCalendar size={26} className="mr-2" />
       </div>
@@ -42,8 +42,8 @@ export const renderDurationTime = () => {
   const { startTime, endTime } = MARRIAGE.time
   return (
     <div className="flex items-center justify-center">
-      وسيبدأ تقديم الوليمة في تمام الساعة الثالثة عصرًا
-      <BsClockFill size={26} className="mr-2" />    
+      {/* وسيبدأ تقديم الوليمة في تمام الساعة الثالثة عصرًا
+      <BsClockFill size={26} className="mr-2" />     */}
     </div>
   )
 }

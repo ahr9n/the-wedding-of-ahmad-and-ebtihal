@@ -21,8 +21,8 @@ export const MARRIAGE = {
       en: "Sat, 12 August 2023",
       id: {
         day: "يوم السبت",
-        hijri: "الموافق الخامس والعشرين من شهر الله المحرم للعام ١٤٤٥ هجرية",
-        miladi: "الثاني عشر من شهر أغسطس للعام ٢٠٢٣ ميلادية",
+        // hijri: "الموافق الخامس والعشرين من شهر الله المحرم للعام ١٤٤٥ هجرية",
+        miladi: "الموافق الثاني عشر من شهر أغسطس للعام ٢٠٢٣ ميلادية",
       },
     },
     dateValue: new Date("August 12, 2023"),
@@ -30,8 +30,8 @@ export const MARRIAGE = {
     endTime: "23:59",
   },
   location: {
-    place: "منزل العريس بقرية كفر الشيخ سليم",
-    url: "https://www.google.com/maps?q=30.7356395,30.9755261",
+    place: "قاعة الطاووس، أمام كوبري سبرباي الطريق السريع المؤدي للقاهرة، بجوار كارليتو كافيه",
+    url: "https://goo.gl/maps/BEh8x3schUoksmRX7",
   },
   form: {
     url: "https://forms.gle/LRKxGUcvCF8qSCNJA",
