@@ -29,7 +29,7 @@ export const renderDateTime = (card = "invitation") => {
     let now = MARRIAGE.time.date.id
     return (
       <div className="my-3 flex items-center justify-center">
-        <div>{now.miladi}</div>
+        {/* <div>{now.miladi}</div> */}
         {/* <div>{now.hijri}</div> */}
         <div>{now.day}</div>
         <ImCalendar size={26} className="mr-2" />
