@@ -19,13 +19,10 @@ const cardStyle = {
 
 const Invitation = () => {
   const renderName = (couple: ICouple) => {
-    const { fullName, father, relation } = couple
+    const { fullName } = couple
     return (
       <div>
         <h1 className="font-gulzar text-4xl xl:text-6xl">{fullName}</h1>
-        <div className="my-2">
-          {relation} <b>{father}</b>
-        </div>
       </div>
     )
   }
