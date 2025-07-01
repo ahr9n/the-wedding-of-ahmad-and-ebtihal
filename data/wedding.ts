@@ -22,7 +22,7 @@ export const MARRIAGE = {
       },
     },
     dateValue: new Date("July 15, 2025"),
-    startTime: "21:00",
+    startTime: "20:00",
     endTime: "23:59",
   },
   location: {
