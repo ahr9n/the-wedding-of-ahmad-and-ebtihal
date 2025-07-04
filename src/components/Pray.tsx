@@ -3,16 +3,16 @@ import { renderSendPrayButton } from "@utils/utils"
 
 const Pray = () => {
   return (
-    <Card title="الدعاء بالخير والبركة للعروسين">
+    <Card title="A Prayer for the Bride and Groom">
       <div className="my-3 font-ruqaa text-3xl">
-        بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+        May Allah bless you, and shower His blessings upon you, and bring you together in goodness.
       </div>
       <div>
-        جعَلَ الله لكَ البرَكةَ والخيرَ في هذا الزَّواجِ، وجعلَ اللهُ الخيرَ
-        ينزِلُ عليكَ في زواجِكَ، وجمَعَ اللهُ بينَكَ وبينَ زوجِكَ في الطاعةِ
-        والصحَّةِ والعافيةِ وكلِّ ما هو خيرٌ
+        May Allah grant you blessings and goodness in your marriage, 
+        may goodness descend upon you, 
+        and may He unite you in obedience, health, and all that is good.
       </div>
-      <div>صحيح أبو داوود، الصفحة أو الرقم: 2130</div>
+      <div>Authentic - Abu Dawood, Hadith No. 2130</div>
       {renderSendPrayButton()}
     </Card>
   )

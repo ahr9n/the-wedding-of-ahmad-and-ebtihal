@@ -3,8 +3,8 @@ import { renderCoupleNames } from "@utils/utils"
 
 const ThankYou = () => {
   return (
-    <Card title="شكرًا لكم">
-      <div>تشرّفنا بحضوركم، والعاقبة عندكم في المسرّات</div>
+    <Card title="Thank You!">
+      <div>Your presence is our honor. May happiness and joyful occasions fill your lives as well.</div>
       {renderCoupleNames()}
     </Card>
   )

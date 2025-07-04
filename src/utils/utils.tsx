@@ -21,8 +21,8 @@ export const renderDateTime = (card = "invitation") => {
     let now = MARRIAGE.time.date.en
     return (
       <div className="my-3 flex items-center justify-center">
-        {now}
         <ImCalendar size={26} className="mr-2" />
+        {now}
       </div>
     )
   } else {
@@ -31,8 +31,8 @@ export const renderDateTime = (card = "invitation") => {
       <div className="my-3 flex items-center justify-center">
         {/* <div>{now.miladi}</div> */}
         {/* <div>{now.hijri}</div> */}
-        {now.day}
         <ImCalendar size={26} className="mr-2" />
+        {now.day}
       </div>
     )
   }
@@ -52,8 +52,8 @@ export const renderLocation = () => {
   return (
     <div>
       <div className="my-3 flex items-center justify-center">
-        <div className="ml-2 font-bold"> المكان</div>
         <ImLocation size={23} />
+        <div className="ml-2 font-bold"> VenueLocation</div>
       </div>
       <div>{MARRIAGE.location.place}</div>
     </div>
@@ -66,7 +66,7 @@ export const renderButtonLocation = () => {
       <Link href={MARRIAGE.location.url}>
         <a className="btn btn-outline" target="__blank">
           <FaMapMarkedAlt size={23} className="mr-2" />
-          انظر في الخريطة
+          See on Google Maps
         </a>
       </Link>
     </div>
@@ -79,7 +79,7 @@ export const renderSendPrayButton = () => {
       <Link href={MARRIAGE.form.url}>
         <a className="btn btn-outline" target="__blank">
           <FiSend size={23} className="mr-2" />
-          قم بإرسال دعوتك الخاصة من هنا
+          Send your wedding blessings 
         </a>
       </Link>
     </div>

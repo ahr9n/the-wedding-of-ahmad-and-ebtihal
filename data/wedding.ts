@@ -3,20 +3,20 @@ import { ICouples } from "data/interfaces"
 export const COUPLES: ICouples = {
   husband: {
     name: "Ahmad",
-    fullName: "المهندس: أحمد",
+    fullName: "Eng: Ahmad",
   },
   wife: {
     name: "Aya",
-    fullName: "المهندسة: آية",
+    fullName: "Eng: Aya",
   },
 }
 
 export const MARRIAGE = {
   time: {
     date: {
-      en: "يوم الثلاثاء، ١٥ يوليو ٢٠٢٥م - ٢٠ محرّم ١٤٤٧هـ",
+      en: "Tue, 15 July 2025",
       id: {
-        day: " يوم الثلاثاء الموافق الخامس عشر من شهر يوليو للعام ٢٠٢٥ ميلادية ",
+        day: "on Tuesday, the 15th of July 2025",
         // hijri: "الموافق الخامس والعشرين من شهر الله المحرم للعام ١٤٤٥ هجرية",
         // miladi: " الموافق الثاني عشر من شهر أغسطس للعام ٢٠٢٣ ميلادية",
       },
@@ -26,7 +26,7 @@ export const MARRIAGE = {
     endTime: "23:59",
   },
   location: {
-    place: "قصر الروضة، بجوار مفارق الزقازيق - بنها",
+    place: "Al-Rawda Palace, next to Zagazig-Banha crossroads",
     url: "https://maps.app.goo.gl/iyfBQ4DmAgwUYtsw5",
   },
   form: {

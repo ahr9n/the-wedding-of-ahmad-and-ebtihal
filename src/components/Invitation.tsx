@@ -38,8 +38,8 @@ const Invitation = () => {
   }
 
   return (
-    <Card title="دعوة">
-      <h2>يشرّفنا ويُسعدنا دعوة سيادتكم لحضور حفل زفاف</h2>
+    <Card title="Invitation">
+      <h2>It is our honor and pleasure to invite you to the wedding celebration of</h2>
       {renderCoupleNames()}
 
       <div></div>

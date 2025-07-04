@@ -6,7 +6,7 @@ import { renderCoupleNames, renderDateTime } from "@utils/utils"
 
 const Headline = () => {
   return (
-    <Card title="حفل زفاف">
+    <Card title="Wedding Celebration">
       {renderCoupleNames()}
       {renderDateTime("headline")}
       <Countdown />
