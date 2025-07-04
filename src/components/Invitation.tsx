@@ -40,7 +40,10 @@ const Invitation = () => {
 
   return (
     <Card title="Invitation">
-      <h2>It is our honor and pleasure to invite you to the wedding celebration of</h2>
+      <div className="my-3 font-ruqaa text-3xl">
+        <h2>It is our honor and pleasure to invite you to the wedding celebration of</h2>
+      </div>
+
       {renderCoupleNames()}
 
       <div></div>

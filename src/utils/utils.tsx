@@ -53,7 +53,7 @@ export const renderLocation = () => {
     <div>
       <div className="my-3 flex items-center justify-center">
         <ImLocation size={23} />
-        <div className="ml-2 font-bold"> Venue Location</div>
+        <div className="ml-2 font-bold"> Venue</div>
       </div>
       <div>{MARRIAGE.location.place}</div>
     </div>
@@ -66,7 +66,7 @@ export const renderButtonLocation = () => {
       <Link href={MARRIAGE.location.url}>
         <a className="btn btn-outline" target="__blank">
           <FaMapMarkedAlt size={23} className="mr-2" />
-          See on Google Maps
+          See Location on Google Maps
         </a>
       </Link>
     </div>

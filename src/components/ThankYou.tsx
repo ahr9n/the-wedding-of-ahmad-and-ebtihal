@@ -5,8 +5,10 @@ import { renderCoupleNames } from "@utils/utils"
 const ThankYou = () => {
   return (
     <Card title="Thank You!">
-      <div>Your presence is our honor. May happiness and joyful occasions fill your lives as well.</div>
-      {renderCoupleNames()}
+      <div className="my-3 font-ruqaa text-3xl">
+        Your presence is our honor. May happiness and joyful occasions fill your lives as well.
+      </div>
+    {renderCoupleNames()}
     </Card>
   )
 }
