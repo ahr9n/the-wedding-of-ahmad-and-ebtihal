@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import Card from "@components/Card"
 import { renderSendPrayButton } from "@utils/utils"
 
