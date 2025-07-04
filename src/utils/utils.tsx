@@ -21,8 +21,8 @@ export const renderDateTime = (card = "invitation") => {
     let now = MARRIAGE.time.date.en
     return (
       <div className="my-3 flex items-center justify-center">
-        <ImCalendar size={26} className="mr-2" />
         {now}
+        <ImCalendar size={26} className="mr-2" />
       </div>
     )
   } else {
@@ -31,7 +31,7 @@ export const renderDateTime = (card = "invitation") => {
       <div className="my-3 flex items-center justify-center">
         {/* <div>{now.miladi}</div> */}
         {/* <div>{now.hijri}</div> */}
-        <div>{now.day}</div>
+        {now.day}
         <ImCalendar size={26} className="mr-2" />
       </div>
     )

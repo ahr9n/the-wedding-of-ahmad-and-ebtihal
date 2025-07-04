@@ -61,15 +61,9 @@ const Countdown = () => {
     <div className="grid auto-cols-max grid-flow-col gap-5 text-center">
       <div className={classUnitTime}>
         <span className={classSpanCountdown}>
-          <span ref={daysRef} />
+          <span ref={secondsRef} />
         </span>
-        يوم
-      </div>
-      <div className={classUnitTime}>
-        <span className={classSpanCountdown}>
-          <span ref={hoursRef} />
-        </span>
-        ساعة
+        ثانية
       </div>
       <div className={classUnitTime}>
         <span className={classSpanCountdown}>
@@ -79,9 +73,15 @@ const Countdown = () => {
       </div>
       <div className={classUnitTime}>
         <span className={classSpanCountdown}>
-          <span ref={secondsRef} />
+          <span ref={hoursRef} />
         </span>
-        ثانية
+        ساعة
+      </div>
+      <div className={classUnitTime}>
+        <span className={classSpanCountdown}>
+          <span ref={daysRef} />
+        </span>
+        يوم
       </div>
     </div>
   )
