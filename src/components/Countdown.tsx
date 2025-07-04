@@ -75,13 +75,13 @@ const Countdown = () => {
         <span className={classSpanCountdown}>
           <span ref={hoursRef} />
         </span>
-        ساعة
+        ساعات
       </div>
       <div className={classUnitTime}>
         <span className={classSpanCountdown}>
           <span ref={daysRef} />
         </span>
-        يوم
+        أيام
       </div>
     </div>
   )
