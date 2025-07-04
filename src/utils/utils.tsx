@@ -53,7 +53,7 @@ export const renderLocation = () => {
     <div>
       <div className="my-3 flex items-center justify-center">
         <ImLocation size={23} />
-        <div className="ml-2 font-bold"> VenueLocation</div>
+        <div className="ml-2 font-bold"> Venue Location</div>
       </div>
       <div>{MARRIAGE.location.place}</div>
     </div>
