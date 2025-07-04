@@ -31,7 +31,7 @@ const Invitation = () => {
     return (
       <div className="mt-10 mb-5">
         {renderName(COUPLES.husband)}
-        <h3 className="mt-9 mb-5 font-curly text-3xl xl:text-4xl">&</h3>
+        <h3 className="mt-9 mb-5 font-modern text-3xl xl:text-4xl">&</h3>
         {renderName(COUPLES.wife)}
       </div>
     )

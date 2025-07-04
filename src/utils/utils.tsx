@@ -10,7 +10,7 @@ import { COUPLES, MARRIAGE } from "data/wedding"
 
 export const renderCoupleNames = () => {
   return (
-    <div className="my-5 font-curly text-4xl xl:text-5xl">
+    <div className="my-5 font-modern text-4xl xl:text-5xl">
       {COUPLES.husband.name} & {COUPLES.wife.name}
     </div>
   )

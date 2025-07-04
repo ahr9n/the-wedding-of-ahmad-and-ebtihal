@@ -12,6 +12,7 @@ module.exports = {
         curly: ["Great Vibes", ...defaultTheme.fontFamily.serif],
         gulzar: ["Gulzar", ...defaultTheme.fontFamily.serif],
         ruqaa: ["Aref Ruqaa", ...defaultTheme.fontFamily.serif],
+        modern: ["Parisienne", "cursive"], 
       },
     },
   },
