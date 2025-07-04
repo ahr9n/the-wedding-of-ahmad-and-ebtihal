@@ -14,9 +14,9 @@ export const COUPLES: ICouples = {
 export const MARRIAGE = {
   time: {
     date: {
-      en: "Tue, 15 July 2025",
+      en: "Tue, 15 Jul. 2025",
       id: {
-        day: "on Tuesday, the 15th of July 2025",
+        day: "on Tuesday, 15th of July 2025",
         // hijri: "الموافق الخامس والعشرين من شهر الله المحرم للعام ١٤٤٥ هجرية",
         // miladi: " الموافق الثاني عشر من شهر أغسطس للعام ٢٠٢٣ ميلادية",
       },
